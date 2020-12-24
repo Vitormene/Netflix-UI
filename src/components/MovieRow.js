@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './MovieRow.css';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
-export default({title, items})=>{
+export default function MovieRow ({title, items}){
 
         const [scrollX, setScrollX] = useState(0);
 

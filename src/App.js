@@ -6,7 +6,7 @@ import FeaturedMovie from './components/FeaturedMovie';
 import Header from './components/Header';
 import Helmet from 'react-helmet'
 
-export default () => {
+export default function MyApp () {
   const [movieList, setMovieList] = useState([]);
   const [featuredData, setFeaturedDta] = useState(null);
   const [blackHeader, setblackHeader] = useState(false);

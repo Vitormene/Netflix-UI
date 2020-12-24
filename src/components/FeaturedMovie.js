@@ -1,7 +1,7 @@
 import React from 'react';
 import './FeaturedMovie.css';
 
-export default ({ item }) => {
+export default function Featured ({ item }) {
     let firstDate = new Date(item.first_air_date);
     let genres = [];
 
